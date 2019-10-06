@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Mine sweeping</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+	<script src="js/cell.js"></script>
+	<script src="js/sketch.js"></script>
+	<!--
+		Mine Sweeper
+		Bryant created at 2019.25.9
+		-->
+</head>
+<body>
+<div class="game" id="hexsweeper">
+	<p id="timer">00:00:00</p>
+	<p id="flags"></p>
+	<button onclick="resetGame()">Reset</button>
+	<select id="difficulty" title="Difficulty">
+		<option value="easy">Easy</option>
+		<option value="medium">Medium</option>
+		<option value="hard">Hard</option>
+	</select>
+	<br />
+	
+</div>
+</body>
+</html>
